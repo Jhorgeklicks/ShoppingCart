@@ -29,6 +29,6 @@ Address VARCHAR(25) NOT NULL,
 Payment_Mode VARCHAR(15) NOT NULL
 )
 
-ALTER TABLE `firstshop` ADD `Pcode` INT(7) NOT NULL AFTER `Price`
+#ALTER TABLE `firstshop` ADD `Pcode` INT(7) NOT NULL AFTER `Price`
 
-SELECT CONCAT ( P_Name ,'(',P_Qty,')') AS Items_Quantity, P_Price FROM cart
+#SELECT CONCAT ( P_Name ,'(',P_Qty,')') AS Items_Quantity, P_Price FROM cart
